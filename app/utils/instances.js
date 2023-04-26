@@ -1,7 +1,7 @@
 import postAbi from './Post.json'
 import factoryAbi from './BlogFactory.json'
 
-const contractAddress = '0x5C61734441fe9F06Ffc7BE970D4a766B79bFcF85'
+const contractAddress = '0x748D990a25EfFCe787bEb775eE35c7f6427191AF'
 
 const blogInstance = (web3Instance, address) => {
   return new web3Instance.eth.Contract(postAbi.abi, address)

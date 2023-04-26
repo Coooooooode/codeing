@@ -4,7 +4,7 @@
 node_modules
 .pnp
 .pnp.js
-
+.secret
 # testing
 coverage
 
@@ -38,3 +38,4 @@ next-env.d.ts
 # local
 .dccache
 .vscode
+
